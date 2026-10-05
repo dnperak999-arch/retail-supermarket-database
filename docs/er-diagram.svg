@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="740" viewBox="0 0 1180 740">
+  <rect width="1180" height="740" fill="#ffffff" />
+  <g id="relationships" fill="none" stroke="#1B4F72" stroke-width="1.5">
+    <line x1="358.0" y1="88.0" x2="358.0" y2="124.0" />
+    <line x1="358.0" y1="288.0" x2="358.0" y2="328.0" />
+    <line x1="208.0" y1="410.0" x2="248.0" y2="410.0" />
+    <line x1="468.0" y1="410.0" x2="508.0" y2="410.0" />
+    <line x1="776.0" y1="410.0" x2="816.0" y2="410.0" />
+    <line x1="358.0" y1="492.0" x2="358.0" y2="532.0" />
+    <line x1="900.0" y1="285.0" x2="900.0" y2="317.0" />
+    <line x1="1078.0" y1="285.0" x2="1078.0" y2="317.0" />
+    <line x1="990.0" y1="503.0" x2="990.0" y2="545.0" />
+  </g>
+  <g id="cardinalities" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">
+    <text x="365.0" y="104.0">1</text>
+    <text x="365.0" y="118.0">*</text>
+    <text x="365.0" y="304.0">1</text>
+    <text x="365.0" y="322.0">*</text>
+    <text x="215.0" y="404.0">1</text>
+    <text x="241.0" y="404.0" text-anchor="end">*</text>
+    <text x="475.0" y="404.0">1</text>
+    <text x="501.0" y="404.0" text-anchor="end">*</text>
+    <text x="783.0" y="404.0">*</text>
+    <text x="809.0" y="404.0" text-anchor="end">1</text>
+    <text x="365.0" y="508.0">1</text>
+    <text x="365.0" y="526.0">*</text>
+    <text x="907.0" y="301.0">1</text>
+    <text x="907.0" y="311.0">*</text>
+    <text x="1085.0" y="301.0">1</text>
+    <text x="1085.0" y="311.0">*</text>
+    <text x="997.0" y="519.0">1</text>
+    <text x="997.0" y="539.0">0..1</text>
+  </g>
+  <g id="entities">
+    <g id="role">
+      <rect x="270" y="12" width="176" height="76" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="270" y="12" width="176" height="32" fill="#1B4F72" />
+      <text x="358.0" y="33.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Role</text>
+      <text x="276.0" y="59.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="324.0" y="59.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">role_id</text>
+      <line x1="270" y1="66" x2="446" y2="66" stroke="#D5E2EC" />
+      <text x="324.0" y="81.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">role_name</text>
+    </g>
+    <g id="user">
+      <rect x="248" y="124" width="220" height="164" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="248" y="124" width="220" height="32" fill="#1B4F72" />
+      <text x="358.0" y="145.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">User</text>
+      <text x="254.0" y="171.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="302.0" y="171.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">user_id</text>
+      <line x1="248" y1="178" x2="468" y2="178" stroke="#D5E2EC" />
+      <text x="302.0" y="193.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">full_name</text>
+      <line x1="248" y1="200" x2="468" y2="200" stroke="#D5E2EC" />
+      <text x="254.0" y="215.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">UQ</text>
+      <text x="302.0" y="215.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">email</text>
+      <line x1="248" y1="222" x2="468" y2="222" stroke="#D5E2EC" />
+      <text x="302.0" y="237.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">password_hash</text>
+      <line x1="248" y1="244" x2="468" y2="244" stroke="#D5E2EC" />
+      <text x="254.0" y="259.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="302.0" y="259.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">role_id</text>
+      <line x1="248" y1="266" x2="468" y2="266" stroke="#D5E2EC" />
+      <text x="302.0" y="281.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">status</text>
+    </g>
+    <g id="customer">
+      <rect x="12" y="339" width="196" height="142" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="12" y="339" width="196" height="32" fill="#1B4F72" />
+      <text x="110.0" y="360.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Customer</text>
+      <text x="18.0" y="386.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="66.0" y="386.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">customer_id</text>
+      <line x1="12" y1="393" x2="208" y2="393" stroke="#D5E2EC" />
+      <text x="66.0" y="408.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">full_name</text>
+      <line x1="12" y1="415" x2="208" y2="415" stroke="#D5E2EC" />
+      <text x="66.0" y="430.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">phone</text>
+      <line x1="12" y1="437" x2="208" y2="437" stroke="#D5E2EC" />
+      <text x="66.0" y="452.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">email</text>
+      <line x1="12" y1="459" x2="208" y2="459" stroke="#D5E2EC" />
+      <text x="66.0" y="474.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">address</text>
+    </g>
+    <g id="order">
+      <rect x="248" y="328" width="220" height="164" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="248" y="328" width="220" height="32" fill="#1B4F72" />
+      <text x="358.0" y="349.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">CustomerOrder</text>
+      <text x="254.0" y="375.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="302.0" y="375.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">order_id</text>
+      <line x1="248" y1="382" x2="468" y2="382" stroke="#D5E2EC" />
+      <text x="254.0" y="397.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="302.0" y="397.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">customer_id</text>
+      <line x1="248" y1="404" x2="468" y2="404" stroke="#D5E2EC" />
+      <text x="254.0" y="419.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="302.0" y="419.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">user_id</text>
+      <line x1="248" y1="426" x2="468" y2="426" stroke="#D5E2EC" />
+      <text x="302.0" y="441.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">order_date</text>
+      <line x1="248" y1="448" x2="468" y2="448" stroke="#D5E2EC" />
+      <text x="302.0" y="463.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">total_amount</text>
+      <line x1="248" y1="470" x2="468" y2="470" stroke="#D5E2EC" />
+      <text x="302.0" y="485.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">order_status</text>
+    </g>
+    <g id="item">
+      <rect x="508" y="328" width="268" height="164" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="508" y="328" width="268" height="32" fill="#1B4F72" />
+      <text x="642.0" y="349.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">OrderItem</text>
+      <text x="514.0" y="375.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="562.0" y="375.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">order_item_id</text>
+      <line x1="508" y1="382" x2="776" y2="382" stroke="#D5E2EC" />
+      <text x="514.0" y="397.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="562.0" y="397.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">order_id</text>
+      <line x1="508" y1="404" x2="776" y2="404" stroke="#D5E2EC" />
+      <text x="514.0" y="419.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="562.0" y="419.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">product_id</text>
+      <line x1="508" y1="426" x2="776" y2="426" stroke="#D5E2EC" />
+      <text x="562.0" y="441.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">quantity</text>
+      <line x1="508" y1="448" x2="776" y2="448" stroke="#D5E2EC" />
+      <text x="562.0" y="463.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">item_price</text>
+      <line x1="508" y1="470" x2="776" y2="470" stroke="#D5E2EC" />
+      <text x="514.0" y="485.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">UQ</text>
+      <text x="562.0" y="485.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">(order_id, product_id)</text>
+    </g>
+    <g id="payment">
+      <rect x="248" y="532" width="220" height="164" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="248" y="532" width="220" height="32" fill="#1B4F72" />
+      <text x="358.0" y="553.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Payment</text>
+      <text x="254.0" y="579.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="302.0" y="579.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">payment_id</text>
+      <line x1="248" y1="586" x2="468" y2="586" stroke="#D5E2EC" />
+      <text x="254.0" y="601.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="302.0" y="601.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">order_id</text>
+      <line x1="248" y1="608" x2="468" y2="608" stroke="#D5E2EC" />
+      <text x="302.0" y="623.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">payment_date</text>
+      <line x1="248" y1="630" x2="468" y2="630" stroke="#D5E2EC" />
+      <text x="302.0" y="645.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">payment_method</text>
+      <line x1="248" y1="652" x2="468" y2="652" stroke="#D5E2EC" />
+      <text x="302.0" y="667.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">payment_status</text>
+      <line x1="248" y1="674" x2="468" y2="674" stroke="#D5E2EC" />
+      <text x="302.0" y="689.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">amount</text>
+    </g>
+    <g id="category">
+      <rect x="816" y="209" width="168" height="76" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="816" y="209" width="168" height="32" fill="#1B4F72" />
+      <text x="900.0" y="230.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Category</text>
+      <text x="822.0" y="256.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="870.0" y="256.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">category_id</text>
+      <line x1="816" y1="263" x2="984" y2="263" stroke="#D5E2EC" />
+      <text x="870.0" y="278.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">category_name</text>
+    </g>
+    <g id="supplier">
+      <rect x="992" y="143" width="172" height="142" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="992" y="143" width="172" height="32" fill="#1B4F72" />
+      <text x="1078.0" y="164.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Supplier</text>
+      <text x="998.0" y="190.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="1046.0" y="190.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">supplier_id</text>
+      <line x1="992" y1="197" x2="1164" y2="197" stroke="#D5E2EC" />
+      <text x="1046.0" y="212.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">supplier_name</text>
+      <line x1="992" y1="219" x2="1164" y2="219" stroke="#D5E2EC" />
+      <text x="1046.0" y="234.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">contact_name</text>
+      <line x1="992" y1="241" x2="1164" y2="241" stroke="#D5E2EC" />
+      <text x="1046.0" y="256.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">phone</text>
+      <line x1="992" y1="263" x2="1164" y2="263" stroke="#D5E2EC" />
+      <text x="1046.0" y="278.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">email</text>
+    </g>
+    <g id="product">
+      <rect x="816" y="317" width="348" height="186" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="816" y="317" width="348" height="32" fill="#1B4F72" />
+      <text x="990.0" y="338.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Product</text>
+      <text x="822.0" y="364.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="870.0" y="364.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">product_id</text>
+      <line x1="816" y1="371" x2="1164" y2="371" stroke="#D5E2EC" />
+      <text x="870.0" y="386.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">product_name</text>
+      <line x1="816" y1="393" x2="1164" y2="393" stroke="#D5E2EC" />
+      <text x="822.0" y="408.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="870.0" y="408.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">category_id</text>
+      <line x1="816" y1="415" x2="1164" y2="415" stroke="#D5E2EC" />
+      <text x="822.0" y="430.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK</text>
+      <text x="870.0" y="430.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">supplier_id</text>
+      <line x1="816" y1="437" x2="1164" y2="437" stroke="#D5E2EC" />
+      <text x="870.0" y="452.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">unit_price</text>
+      <line x1="816" y1="459" x2="1164" y2="459" stroke="#D5E2EC" />
+      <text x="822.0" y="474.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">UQ</text>
+      <text x="870.0" y="474.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">barcode</text>
+      <line x1="816" y1="481" x2="1164" y2="481" stroke="#D5E2EC" />
+      <text x="870.0" y="496.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">description</text>
+    </g>
+    <g id="inventory">
+      <rect x="816" y="545" width="348" height="142" fill="#ffffff" stroke="#1B4F72" stroke-width="1.4" />
+      <rect x="816" y="545" width="348" height="32" fill="#1B4F72" />
+      <text x="990.0" y="566.0" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Inventory</text>
+      <text x="822.0" y="592.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">PK</text>
+      <text x="870.0" y="592.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">inventory_id</text>
+      <line x1="816" y1="599" x2="1164" y2="599" stroke="#D5E2EC" />
+      <text x="822.0" y="614.0" fill="#1B4F72" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">FK UQ</text>
+      <text x="870.0" y="614.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">product_id</text>
+      <line x1="816" y1="621" x2="1164" y2="621" stroke="#D5E2EC" />
+      <text x="870.0" y="636.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">quantity_in_stock</text>
+      <line x1="816" y1="643" x2="1164" y2="643" stroke="#D5E2EC" />
+      <text x="870.0" y="658.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">reorder_level</text>
+      <line x1="816" y1="665" x2="1164" y2="665" stroke="#D5E2EC" />
+      <text x="870.0" y="680.0" fill="#243140" font-family="Helvetica, Arial, sans-serif" font-size="12">last_updated</text>
+    </g>
+  </g>
+</svg>
